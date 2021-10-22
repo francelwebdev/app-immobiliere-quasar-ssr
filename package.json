@@ -1,0 +1,55 @@
+{
+  "name": "quasar_application",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "author": "Francel <francel.webdev@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@urql/vue": "0.5.0",
+    "@vuelidate/core": "2.0.0-alpha.29",
+    "@vuelidate/validators": "2.0.0-alpha.24",
+    "add": "2.0.6",
+    "axios": "0.23.0",
+    "core-js": "3.18.3",
+    "graphql": "15.6.1",
+    "graphql-hooks": "5.4.1",
+    "graphql-request": "3.6.1",
+    "pinia": "2.0.0-rc.14",
+    "quasar": "2.1.9",
+    "vee-validate": "4.5.4",
+    "vue-i18n": "9.1.9",
+    "vue-tel-input": "6.0.0-beta.4",
+    "vuex": "4.0.2",
+    "yarn": "1.22.17",
+    "compression": "^1.0.0",
+    "express": "^4.0.0",
+    "vue": "3.2.20",
+    "@vue/server-renderer": "3.2.20",
+    "@vue/compiler-sfc": "3.2.20",
+    "@quasar/ssr-helpers": "2.1.1",
+    "vue-router": "4.0.12",
+    "@quasar/babel-preset-app": "2.0.1"
+  },
+  "engines": {
+    "node": ">= 14.x",
+    "npm": ">= 8.x",
+    "yarn": ">= 1.x"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "quasar": {
+    "ssr": true
+  }
+}
